@@ -21,7 +21,8 @@
     "mysql": "^2.18.1",
     "mysql2": "^3.7.1",
     "pg": "^8.11.3",
-    "pg-promise": "^11.5.4"
+    "pg-promise": "^11.5.4",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.3"

@@ -27,9 +27,6 @@ app.get('/', (req, res) => {
 res.json({'message': 'ok'});
 })
 
-const authRoute = require('./routes/auth.route');
-app.use('/auth', authRoute);
-
 const membersRoute = require('./routes/members.route');
 app.use('/members', membersRoute);
 
